@@ -20,7 +20,7 @@ public class NewTest {
 	  input.sendKeys("selenium");
 	  searchBtn.click();
 	  //#content_left>div>h3>a:nth-child(1)
-	  WebElement reslut1 = driver.findElement(By.cssSelector("##content_left>div>h3>a:nth-child(1)"));
+	  WebElement reslut1 = driver.findElement(By.cssSelector("#content_left>div>h3>a:nth-child(1)"));
 	  reslut1.click();
   }
   @BeforeTest
